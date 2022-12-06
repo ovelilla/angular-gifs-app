@@ -1,1 +1,79 @@
-/* You can add global styles to this file, and also import other style files */
+/* Resets */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/* Root */
+:root {
+    --slate-50: rgb(248 250 252);
+    --slate-100: rgb(241 245 249);
+    --slate-200: rgb(226 232 240);
+    --slate-300: rgb(203 213 225);
+    --slate-400: rgb(148 163 184);
+    --slate-500: rgb(100 116 139);
+    --slate-600: rgb(71 85 105);
+    --slate-700: rgb(51 65 85);
+    --slate-800: rgb(30 41 59);
+    --slate-900: rgb(15 23 42);
+}
+
+/* Base */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+}

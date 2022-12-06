@@ -1,0 +1,9 @@
+<div class="gif" *ngFor="let gif of results">
+    <div class="image">
+        <img [src]="gif.images.downsized_medium.url" [alt]="gif.title" />
+    </div>
+
+    <div class="info">
+        <p>{{ gif.title }}</p>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    height: 48px;
+    padding: 0 16px;
+    border: 1px solid var(--slate-500);
+    border-radius: 8px;
+}

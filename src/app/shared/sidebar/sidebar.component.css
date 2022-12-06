@@ -1,0 +1,38 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    flex: 0 0 280px;
+    overflow-y: auto;
+    height: 100%;
+    padding: 32px 16px;
+    background-color: var(--slate-900);
+}
+
+h1 {
+    padding: 0 16px;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    padding: 0 16px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: var(--slate-800);
+}
+
+nav a:active {
+    background-color: var(--slate-700);
+}

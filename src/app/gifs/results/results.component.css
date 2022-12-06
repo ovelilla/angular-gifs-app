@@ -1,0 +1,45 @@
+:host {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.gif {
+    flex: 0 0 300px;
+    overflow: hidden;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.gif .image {
+    overflow: hidden;
+    height: 280px;
+}
+
+.gif .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gif .info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.gif .info p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
